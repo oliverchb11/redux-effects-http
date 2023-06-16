@@ -1,3 +1,4 @@
 export const environment = {
-    API_PATH: 'https://reqres.in/api/'
+    API_PATH: 'https://reqres.in/api/',
+    production: false
 };

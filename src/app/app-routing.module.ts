@@ -5,7 +5,7 @@ import { ListComponent } from './users/list/list.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: ListComponent
   },
   {
@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'home'
+    redirectTo: ''
   }
 ];
 
